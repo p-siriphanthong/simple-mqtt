@@ -30,5 +30,5 @@ python Publisher.py
 * Create topic for communicate to Subscribers: `topic "Topic With Space"`
 * Send message: `publish "Message With Space"`
 * Cancel current topic: `cancel "Topic With Space"`
-> You can run many Subscribers and Publishers at the same time
+> You can run many Subscribers and Publishers at the same time <br />
 > Publisher can send a massage serveral times before cancel topic
