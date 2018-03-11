@@ -19,7 +19,7 @@ python Broker.py
 ```
 python Subscriber.py Topic
 ```
-	or
+or
 ```
 python Subscriber.py "Topic With Space"
 ```
@@ -27,8 +27,8 @@ python Subscriber.py "Topic With Space"
 ```
 python Publisher.py
 ```
-	* Create topic for communicate to Subscribers: `topic "Topic With Space"`
-	* Send message: `publish "Message With Space"`
-	* Cancel current topic: `cancel "Topic With Space"`
+* Create topic for communicate to Subscribers: `topic "Topic With Space"`
+* Send message: `publish "Message With Space"`
+* Cancel current topic: `cancel "Topic With Space"`
 > You can run many Subscribers and Publishers at the same time
 > Publisher can send a massage serveral times before cancel topic
